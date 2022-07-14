@@ -1,0 +1,122 @@
+==> 2022-07-14 14:40:24 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda create -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv -y python=3.7
+# conda version: 4.12.0
++defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
++defaults/osx-64::ca-certificates-2022.4.26-hecd8cb5_0
++defaults/osx-64::certifi-2022.6.15-py37hecd8cb5_0
++defaults/osx-64::libcxx-12.0.0-h2f01273_0
++defaults/osx-64::libffi-3.3-hb1e8313_2
++defaults/osx-64::ncurses-6.3-hca72f7f_3
++defaults/osx-64::openssl-1.1.1q-hca72f7f_0
++defaults/osx-64::pip-22.1.2-py37hecd8cb5_0
++defaults/osx-64::python-3.7.13-hdfd78df_0
++defaults/osx-64::readline-8.1.2-hca72f7f_1
++defaults/osx-64::setuptools-61.2.0-py37hecd8cb5_0
++defaults/osx-64::sqlite-3.38.5-h707629a_0
++defaults/osx-64::tk-8.6.12-h5d9f67b_0
++defaults/osx-64::xz-5.2.5-hca72f7f_1
++defaults/osx-64::zlib-1.2.12-h4dc903c_2
+# update specs: ['python=3.7']
+==> 2022-07-14 14:42:10 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv certifi==2019.11.28 -y
+# conda version: 4.12.0
+-defaults/osx-64::certifi-2022.6.15-py37hecd8cb5_0
++defaults/osx-64::certifi-2019.11.28-py37_1
+# update specs: ['certifi==2019.11.28']
+==> 2022-07-14 14:42:18 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv Click==7.0 -y
+# conda version: 4.12.0
+-defaults/osx-64::certifi-2019.11.28-py37_1
++defaults/osx-64::certifi-2022.6.15-py37hecd8cb5_0
++defaults/osx-64::click-7.0-py37_0
+# update specs: ['click==7.0']
+# neutered specs: ['certifi']
+==> 2022-07-14 14:42:25 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv Flask==1.1.1 -y
+# conda version: 4.12.0
++defaults/noarch::dataclasses-0.8-pyh6d0b6a4_7
++defaults/noarch::flask-1.1.1-py_1
++defaults/noarch::itsdangerous-2.0.1-pyhd3eb1b0_0
++defaults/noarch::jinja2-3.0.3-pyhd3eb1b0_0
++defaults/noarch::werkzeug-2.0.3-pyhd3eb1b0_0
++defaults/osx-64::markupsafe-2.1.1-py37hca72f7f_0
+# update specs: ['flask==1.1.1']
+==> 2022-07-14 14:42:31 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv flask -y
+# conda version: 4.12.0
+-defaults/noarch::flask-1.1.1-py_1
++defaults/noarch::flask-1.1.2-pyhd3eb1b0_0
+# update specs: ['flask']
+# neutered specs: ['flask']
+==> 2022-07-14 14:42:32 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv Flask-Cors==3.0.8 -y
+# conda version: 4.12.0
+-defaults/noarch::flask-1.1.2-pyhd3eb1b0_0
++defaults/noarch::flask-1.1.1-py_1
++defaults/noarch::flask-cors-3.0.8-py_0
++defaults/noarch::six-1.16.0-pyhd3eb1b0_1
+# update specs: ['flask-cors==3.0.8']
+==> 2022-07-14 14:42:38 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv gunicorn==20.0.4 -y
+# conda version: 4.12.0
+-defaults/noarch::flask-1.1.1-py_1
++defaults/noarch::flask-1.1.2-pyhd3eb1b0_0
++defaults/osx-64::gunicorn-20.0.4-py37hecd8cb5_0
+# update specs: ['gunicorn==20.0.4']
+==> 2022-07-14 14:42:41 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv itsdangerous==1.1.0 -y
+# conda version: 4.12.0
+-defaults/noarch::itsdangerous-2.0.1-pyhd3eb1b0_0
++defaults/osx-64::itsdangerous-1.1.0-py37_0
+# update specs: ['itsdangerous==1.1.0']
+==> 2022-07-14 14:42:48 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv Jinja2==2.10.3 -y
+# conda version: 4.12.0
+-defaults/noarch::jinja2-3.0.3-pyhd3eb1b0_0
+-defaults/osx-64::markupsafe-2.1.1-py37hca72f7f_0
++defaults/noarch::jinja2-2.10.3-py_0
++defaults/osx-64::markupsafe-2.0.1-py37h9ed2024_0
+# update specs: ['jinja2==2.10.3']
+==> 2022-07-14 14:42:57 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv joblib==0.14.0 -y
+# conda version: 4.12.0
++defaults/noarch::joblib-0.14.0-py_0
+# update specs: ['joblib==0.14.0']
+==> 2022-07-14 14:43:01 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv MarkupSafe==1.1.1 -y
+# conda version: 4.12.0
+-defaults/osx-64::markupsafe-2.0.1-py37h9ed2024_0
++defaults/osx-64::markupsafe-1.1.1-py37h1de35cc_0
+# update specs: ['markupsafe==1.1.1']
+==> 2022-07-14 14:43:28 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv numpy==1.17.4 -y
+# conda version: 4.12.0
++defaults/osx-64::blas-1.0-mkl
++defaults/osx-64::intel-openmp-2022.0.0-hecd8cb5_3615
++defaults/osx-64::libgfortran-3.0.1-h93005f0_2
++defaults/osx-64::mkl-2019.4-233
++defaults/osx-64::mkl-service-2.3.0-py37h9ed2024_0
++defaults/osx-64::mkl_fft-1.3.0-py37ha059aab_0
++defaults/osx-64::mkl_random-1.1.1-py37h959d312_0
++defaults/osx-64::numpy-1.17.4-py37h890c691_0
++defaults/osx-64::numpy-base-1.17.4-py37h6575580_0
+# update specs: ['numpy==1.17.4']
+==> 2022-07-14 14:43:52 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv scikit-learn==0.21.3 -y
+# conda version: 4.12.0
++defaults/osx-64::llvm-openmp-12.0.0-h0dcd299_1
++defaults/osx-64::scikit-learn-0.21.3-py37h27c97d8_0
++defaults/osx-64::scipy-1.6.2-py37h2515648_0
+# update specs: ['scikit-learn==0.21.3']
+==> 2022-07-14 14:44:23 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv six==1.13.0 -y
+# conda version: 4.12.0
+-defaults/noarch::six-1.16.0-pyhd3eb1b0_1
++defaults/osx-64::six-1.13.0-py37_0
+# update specs: ['six==1.13.0']
+==> 2022-07-14 14:44:35 <==
+# cmd: /Users/sofanabenoutiq/opt/anaconda3/bin/conda install -p /Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv Werkzeug==0.16.0 -y
+# conda version: 4.12.0
+-defaults/noarch::werkzeug-2.0.3-pyhd3eb1b0_0
++defaults/noarch::werkzeug-0.16.0-py_0
+# update specs: ['werkzeug==0.16.0']

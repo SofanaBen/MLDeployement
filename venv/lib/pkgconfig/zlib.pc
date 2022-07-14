@@ -1,0 +1,13 @@
+prefix=/Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv
+exec_prefix=/Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv
+libdir=/Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv/lib
+sharedlibdir=/Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv/lib
+includedir=/Users/sofanabenoutiq/Desktop/MachineLearningModelToHeroku-master/MLForCloudDeployment_Heroku/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
